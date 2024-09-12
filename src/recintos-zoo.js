@@ -73,12 +73,4 @@ class RecintosZoo {
     }
 }
 
-// Testes
-const zoo = new RecintosZoo();
-console.log(zoo.analisaRecintos("LEAO", 1));
-console.log(zoo.analisaRecintos("UNICORNIO", 1));
-console.log(zoo.analisaRecintos("MACACO", 10));
-console.log(zoo.analisaRecintos("CROCODILO", 1));
-console.log(zoo.analisaRecintos("MACACO", 1));
-
 export { RecintosZoo as RecintosZoo };
